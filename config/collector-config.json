@@ -1,0 +1,35 @@
+{
+  "Settings": {
+    "OutputDirectory": "output",
+    "LogDirectory": "logs",
+    "ReportDirectory": "reports",
+    "CompressOutput": true,
+    "GenerateHTMLReport": true,
+    "InstallSysmonIfMissing": false
+  },
+  "Modules": {
+    "CollectSystemInfo": true,
+    "CollectEventLogs": true,
+    "CollectProcesses": true,
+    "CollectServices": true,
+    "CollectNetwork": true,
+    "CollectUsers": true,
+    "CollectScheduledTasks": true,
+    "CollectPersistence": true,
+    "CollectAutoruns": true,
+    "CollectUSBHistory": true,
+    "CollectBrowserArtifacts": true,
+    "CollectPrefetch": true,
+    "CollectDNSCache": true,
+    "CollectFirewall": true,
+    "CollectDefender": true,
+    "CollectBitLocker": true,
+    "CollectInstalledSoftware": true,
+    "CollectRecentFiles": true,
+    "CollectShares": true,
+    "CollectDrivers": true,
+    "CollectRDP": true,
+    "CollectSMB": true,
+    "CollectHashes": true
+  }
+}
